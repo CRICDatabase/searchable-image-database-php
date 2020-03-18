@@ -1,0 +1,76 @@
+/* CSS Document */
+
+.logo_principal{
+	width:166px;
+	height:50px;
+	background-image:url(../img/logo_trivia.png);
+	background-repeat:no-repeat;
+	text-indent:-9999px;
+	margin-top:15px;
+}
+.menu-principal{
+	margin:20px !important;
+	font-size:medium;
+}
+footer{
+	background-color:#1b1b1b;
+	color:#FFF;
+	margin-top:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-top:#00a859 solid 5px;
+}
+.logo-tv{
+	width:320px;
+	height:213px;
+	background-image:url(../img/tv-trivia.png);
+	background-repeat:no-repeat;
+	text-indent:-9999px;
+	margin-top:15px;
+}
+.logo-sites{
+	width:330px;
+	height:216px;
+	background-image:url(../img/logo-site-2.png);
+	background-repeat:no-repeat;
+	text-indent:-9999px;
+	margin-top:15px;
+}
+.logo-identidade-visual{
+	width:338px;
+	height:221px;
+	background-image:url(../img/identidade_visual.png);
+	background-repeat:no-repeat;
+	text-indent:-9999px;
+	margin-top:15px;
+}
+.facebook{
+	width:32px;
+	height:32px;
+	background-image:url(../img/facebook.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+.twitter{
+	width:32px;
+	height:32px;
+	background-image:url(../img/twitter.png);
+	background-repeat:no-repeat;
+	text-indent:-9999px;
+	margin-left:5px;
+}
+.youtube{
+	width:32px;
+	height:32px;
+	background-image:url(../img/youtube.png);
+	background-repeat:no-repeat;
+	text-indent:-9999px;
+	margin-left:5px;
+}
+.menusuperior{
+	border-bottom:#00a859 solid 5px;
+}
+.big{
+	font-size: 200%;
+	line-height:200%;
+}

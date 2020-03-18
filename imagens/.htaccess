@@ -1,0 +1,2 @@
+RewriteEngine Off
+#RewriteRule !\.(js|ico|txt|gif|jpg|png|css)$ navegacao.php

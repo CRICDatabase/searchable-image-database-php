@@ -1,0 +1,50 @@
+figcaption{
+	font-size:small;
+}
+.icones-menu{
+	width:70px;
+	float:left;
+}
+figure.tipo1{
+	background-color:#ed3237;
+	text-align:center;
+	border:solid #FFF 1px;
+	border-radius: 10px;
+	padding:10px;
+	color:#FFF;
+	box-shadow: 5px 5px 3px #888888;
+}
+figure.tipo1:hover{
+	background-color:#dc2126;
+	box-shadow: 5px 5px 3px #777777;
+}
+figure.tipo2{
+	background-color:#00a859;
+	text-align:center;
+	border:solid #FFF 1px;
+	border-radius: 10px;
+	padding:10px;
+	color:#FFF;
+	box-shadow: 5px 5px 3px #888888;
+}
+figure.tipo2:hover{
+	background-color:#009748;
+	box-shadow: 5px 5px 3px #777777;
+}
+figure.tipo3{
+	background-color:#3e4095;
+	text-align:center;
+	border:solid #FFF 1px;
+	border-radius: 10px;
+	padding:10px;
+	color:#FFF;
+	box-shadow: 5px 5px 3px #888888;
+}
+figure.tipo3:hover{
+	background-color:#2d3084;
+	box-shadow: 5px 5px 3px #777777;
+}
+h2{
+	font-family: "Dosis", 'Helvetica Neue', sans-serif;
+}
+
