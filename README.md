@@ -7,28 +7,44 @@ This code was superseded by http://github.com/cricdatabase.
 
 ## Testing (with Docker)
 
+```
+$ docker-compose up
+```
+
 The first time,
-you need to create the Docker image.
-
-```
-$ docker build -t cric1.0 .
-```
-
-After create the image,
-you can run the container with
-
-```
-$ docker run -p 8080:80 -d cric1.0
-```
+`docker-compose` will download some images.
 
 Access [http://localhost:8080/](http://localhost:8080/) from your web browser.
 
-To stop the container,
-execute
+To stop the containers,
+press `CTRL+c`
+or
 
 ```
-$ docker ps
-$ docker stop CONTAINER
+$ docker-compose stop
 ```
 
-where `CONTAINER` is listed in the output of `docker ps`.
+### Update Resources
+
+When change files,
+use
+
+```
+$ docker-compose build
+```
+
+to update the data volume inside the containers.
+
+### Load Database Dump
+
+Edit `docker-compose.yml` to
+
+```
+  mysql:
+    volumes:
+      - "db_data:/var/lib/mysql"
+      - "./mysql/initial_data:/docker-entrypoint-initdb.d"
+```
+
+and add the dump files to `./mysql/initial_data`.
+
