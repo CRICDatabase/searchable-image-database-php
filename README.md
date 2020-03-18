@@ -30,7 +30,7 @@ When change files,
 use
 
 ```
-$ docker-compose build
+$ docker-compose up --force-recreate
 ```
 
 to update the data volume inside the containers.
