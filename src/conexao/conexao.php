@@ -14,9 +14,9 @@
 
 
 
-$host = 'localhost';
+$host = 'mysql';
 $user = 'root';
-$password = '';
+$password = '123.456';
 $db = 'cric_ufop';
 // Tenta se conectar ao servidor MySQL
 $conexao = mysqli_connect($host, $user, $password, $db) or trigger_error(mysql_error());

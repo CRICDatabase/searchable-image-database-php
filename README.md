@@ -7,18 +7,23 @@ This code was superseded by http://github.com/cricdatabase.
 
 ## Testing (with Docker)
 
+To create the containers (if need)
+and launch them,
+execute
+
 ```
-$ docker-compose up
+$ docker-compose up -d
 ```
 
 The first time,
 `docker-compose` will download some images.
+This process will take some time but will **only** happen during the first time.
 
-Access [http://localhost:8080/](http://localhost:8080/) from your web browser.
+Access [http://localhost:8080/](http://localhost:8080/) from your web browser
+to test the CRIC Searchable Image Database.
 
 To stop the containers,
-press `CTRL+c`
-or
+execute
 
 ```
 $ docker-compose stop
